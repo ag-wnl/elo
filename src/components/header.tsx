@@ -1,3 +1,4 @@
+import { ConnectButton } from "@rainbow-me/rainbowkit"
 
 
 export const Header = () => {
@@ -10,6 +11,7 @@ export const Header = () => {
       <div className="text-md cursor-pointer">
         Swap
       </div>
+      <ConnectButton label="Connect" chainStatus="icon" showBalance={false}/>
     </header>
   )
 }
